@@ -22,3 +22,11 @@ def addition(val1, val2, val3):
 # Positional argument
 addition(5, 5, 4)
 addition("Sam ", "king",5)
+
+# keyword arguments (explicit arguments)
+addition(val3=10, val1=20, val2=30)
+
+
+# Default arguments
+# values given to the argument incase values for the arguments are not specified
+# def addition(val1=0, val2=0, val3=2):
