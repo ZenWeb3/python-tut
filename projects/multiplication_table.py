@@ -4,9 +4,10 @@
 # display the multiplication
 
 def multiplication_table() :
-    user_input = int(input("Enter a number to generate a multiplication table"))
+    user_input = int(input("Enter a number to generate a multiplication table: "))
+    print(f"Multiplication table for {user_input}: \n")
     for i in range(1, 11) :
-        print(f"{user_input} X {1} = {user_input * i}")
+        print(f"{user_input} X {i} = {user_input * i}")
     
 
 multiplication_table()
